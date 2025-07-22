@@ -1,0 +1,7 @@
+1. Generating 8-10 likely interview questions for this role
+2. For each question, provide a suggested answer using specific examples from my experience
+3. Include behavioral questions (STAR method responses)
+4. Include technical questions relevant to the role
+5. Suggest questions I should ask the interviewer
+
+Focus on answers that showcase my relevant experience and achievements.
