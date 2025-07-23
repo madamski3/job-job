@@ -13,7 +13,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Vector Store Configuration
 VECTOR_STORE_PATH = "context/vectorstore"
-UPLOAD_DIR = "context/uploads"
+UPLOAD_DIR = "context/resume"  # Changed from 'uploads' to 'resume'
 PROMPT_DIR = "context/prompts"
 
 # Chunk Configuration for document processing

@@ -33,15 +33,15 @@ def main():
     
         # Sidebar
     with st.sidebar:
-        # Document Management Section
-        st.header("📁 Document Management")
+        # Resume Management Section
+        st.header("📰 Resume")
         
         # Document upload
         uploaded_files = st.file_uploader(
-            "Upload your documents",
+            "Upload Resume & Documents",
             type=['pdf', 'txt', 'md'],
             accept_multiple_files=True,
-            help="Upload your resume, cover letters, project descriptions, etc."
+            help="Upload your resume and information about your professional experience"
         )
         
         if uploaded_files:

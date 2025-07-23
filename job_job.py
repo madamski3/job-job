@@ -32,7 +32,7 @@ class JobSearchAI:
         """Get personal context to include in prompts"""
         try:
             # Read directly from the personal context file
-            context_file_path = os.path.join('context', 'personal_context.txt')
+            context_file_path = os.path.join('context', 'background', 'personal_context.txt')
             with open(context_file_path, 'r') as f:
                 context = f.read().strip()
             return f"\n\nPersonal Context: {context}\n" if context else ""
