@@ -1,7 +1,5 @@
 .env
 __pycache__/
 context/resume/*
-!context/resume/upload_your_resume_here.pdf
 context/background/*
-!context/background/your_personal_context_file_here.txt
 context/vectorstore/*
